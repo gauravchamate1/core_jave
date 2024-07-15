@@ -1,0 +1,79 @@
+Application
+
+2types 
+1.standalone application-adobe reader
+desktop 
+mobile
+2.webapplicaion-facebook
+
+
+network--collection of computers
+internet(public)
+intranet(private )
+web browser
+
+
+
+
+server--computer. Terabyte
+
+RDBMS-(relational database management)
+
+j2ee=api
+enterprise webapplicaion-facebook
+
+
+jdbc 
+servlet
+jsp
+
+
+load the driver
+get db connection via driver
+issue sql query via coonnection
+process resultset
+close all jdbc connections
+
+dburl(database uniform resource locator)
+
+<protocol>:<subprotocol>:<subname>
+jdbc
+mysql
+
+subname--localhost+portno+dbname username or password
+
+static sql query
+dynamic sql query
+
+static sql query
+without conditions
+all conditions with hardcoded values 
+
+select * from abc;
+select *from abc where x=1;
+
+
+
+dynamic sql query
+
+conditions...
+
+runtime
+select *from abc where x=?;
+
+jdbc statements
+send sql query to rdms and retrive data from rdbms
+
+java.sql.statement
+java.sql.preparedstatement
+
+
+int executeUpdate() throws sqlexception
+other than select 
+
+resultset executequery throws sqlexception
+
+select sql query
+
+
+static webresource--before making request
